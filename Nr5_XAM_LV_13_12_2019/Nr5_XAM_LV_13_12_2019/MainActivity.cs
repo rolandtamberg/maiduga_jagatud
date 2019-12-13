@@ -54,7 +54,7 @@ namespace Nr5_XAM_LV_13_12_2019
 
                     lst_users.Adapter = adapter;
 
-                    if (!dialog.IsShowing)
+                    if (dialog.IsShowing)
                         dialog.Dismiss();
                 }
                 catch (Exception ex)
