@@ -15,7 +15,7 @@ namespace Nr5_XAM_LV_13_12_2019
 {
     public interface IMyAPI
     {
-        [Get("http://jsonplaceholder.typicode.com/users")]
+        [Get("/users")]
         Task<List<MyUser>> GetUsers();
     };
 }
