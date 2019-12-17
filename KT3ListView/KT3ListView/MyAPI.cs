@@ -15,7 +15,7 @@ namespace KT3ListView
 {
     public interface MyAPI
     {
-        [Get("Arsenal")]
-        Task<List<Team>> GetTeams();
+        [Get("")]
+        Task<List<Team>> GetTeams(string strTeam);
     }
 }
